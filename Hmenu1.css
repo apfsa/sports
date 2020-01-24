@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-top:0px;
+    list-style: none;
+    line-height: 0.7;
+    display: block;
+    position: relative;
+    font-family:Calibri;
+	 font-weight:normal;
+	font-size:14pt;
+}
+#cssmenu
+{
+	 margin: 0;
+	margin-top:-5px;
+    width: auto;
+    height: 30px;
+    padding-bottom: 6px;
+    background: #25383C;
+}
+#cssmenu.align-right
+{
+    float: left;
+}
+#cssmenu.align-right ul li
+{
+    float: left;
+    margin-right: 0;
+    margin-left: 4px;
+    list-style: none;
+    vertical-align: middle;
+}
+
+#cssmenu li ul { 
+	position: absolute;  
+	display: none; 
+	
+} 
+#cssmenu li:hover ul { 
+	display: block; 
+
+
+} 
+
+
+
+#cssmenu ul li
+{
+    float: left;
+    margin-right: 4px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    z-index: 5;
+}
+
+
+
+#cssmenu li ul li a { 
+	width: 330px; 
+	position:relative; 
+
+	background: #25383C; 
+	color: #fff; 
+	  text-align: left;
+}
+
+#cssmenu li ul li a:hover { 
+	
+	color: White; 
+	width: 330px; 
+	
+}
+
+#cssmenu ul li
+{
+    float: left;
+    margin-right: 4px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    z-index: 5;
+}
+#cssmenu ul li a
+{
+    padding: 14px 5px 10px 15px;
+    margin-bottom: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: White;
+    font-size: 11pt;
+    text-decoration: none;
+     
+}
+
+
+/*#cssmenu ul li:last-child
+{
+    float: right;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+          
+}*/
+
+#cssmenu ul li:hover, #cssmenu ul li.active
+{
+	
+
+	  
+}
+#cssmenu ul li a:hover, #cssmenu ul li.active > a
+{
+    
+    color: White;
+
+}
+
+
+.myBtn {
+
+          width: 100px;
+            line-height: 30px;
+            overflow: hidden;
+            z-index: 999;
+
+            cursor: pointer;
+            /*-moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);*/
+            position: fixed;
+            bottom: 20px;
+            right: 0;
+            background: #11998e; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            color: white;
+            text-align: center;
+            font-size: 10pt;
+            text-decoration: none;
+            border-radius: 5px;
+}
+
+    .myBtn:hover {
+        background-color: #555;
+    }
